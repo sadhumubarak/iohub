@@ -1,0 +1,67 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    width: 80%;
+    margin:0 auto;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+
+    p{
+        margin-top: 20px;
+        color: $lightgrey-text;
+    }
+    h1{
+        font-weight: bold;
+    &+p{
+        margin-top: 20px;
+        width: 60%;
+        margin:0 auto;
+
+        @include for-phone-only{
+            width: 100%;
+           }
+
+    }
+    }
+
+    .btn-email{
+        margin-top: 20px;
+        border: none;
+      padding: 10px 25px;
+      background-color: $primary;
+      color: #fff;
+      border-radius: 3px;
+      
+      &:hover{
+          background-color: blue;
+      }
+
+      @include for-phone-only{
+        width: 100%;
+       }
+    }
+
+    .icon-row{
+        margin-top: 20px;
+    img{
+        margin: 10px;
+        cursor: pointer;
+
+        &:hover{
+            filter: sepia(200%) hue-rotate(190deg) saturate(500%);
+            
+        }
+    }
+    }
+    p:last-child{
+        font-size: .8em !important;
+        color: $lightgrey-text;
+
+        
+    }
+
+}
