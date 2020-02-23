@@ -13,7 +13,7 @@ class Gallery extends Component {
 
         return (
             <Fragment>
-                <div className="container-about" id="about">
+                <div className="container-about" id="about" data-aos="fade-up">
                 <div className="about">
                     <div className="about-box1">
                     <p>Nice to meet you</p>

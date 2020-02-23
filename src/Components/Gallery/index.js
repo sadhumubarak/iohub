@@ -18,10 +18,10 @@ class Gallery extends Component {
                     <p>Recent Works</p>
 
                     <div className="gallery-showcase">
-                        <img alt="worked-img"></img>
-                        <img alt="worked-img"></img>
-                        <img alt="worked-img"></img>
-                        <img alt="worked-img"></img>
+                        <img src="sample-1.jpg" alt="worked-img" data-aos="fade-right"></img>
+                        <img src="sample-2.jpg" alt="worked-img" data-aos="flip-left"></img>
+                        <img src="sample-3.jpg" alt="worked-img" data-aos="fade-right"></img>
+                        <img src="sample-4.jpg" alt="worked-img" data-aos="flip-left"></img>
                     </div>
                 <div className="dribbble-link">
                     <a href="#" className="new-link">

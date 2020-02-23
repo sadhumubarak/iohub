@@ -12,12 +12,12 @@ class Work extends Component {
     render() {
 
         return (
-            <Fragment><div className="container-work" id="work">
+            <Fragment><div className="container-work" id="work" data-aos="fade-up">
                         <div className="work">
                         <div className="work-title">
                             <div className="work-content">
                                 <p>How we work</p>
-                                <h1>Desig Process</h1>
+                                <h1>Design Process</h1>
                                 <p>Reach Your business goals with excellent user experiences
                                     Let's start working on your awesome web or iOS app.
                         </p>

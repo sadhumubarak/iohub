@@ -26,7 +26,13 @@ header {
       margin-left: 30px;
      
       @include for-phone-only{
+        position: relative;
         width: 100%;
+        height: 80vh;
+        left: -120px;
+        margin-top: 50px;
+        background-color: rgb(168, 168, 168);
+        
       }
 
       .icon {
@@ -34,7 +40,8 @@ header {
         @include for-phone-only{
           display: block;
           position: absolute;
-          margin-top: 0;
+          margin-top: 3px;
+          color: blue;
           right: 0px;
         }
       }
@@ -48,19 +55,19 @@ header {
         margin: 0 30px;
         cursor: pointer;
 
-        &:last-child{
-          display: none !important;
-        }
-
-
-
         &:hover {
           color: $grey-text;
+        }
+
+        @include for-phone-only{
+          float: none;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
         }
       }
     }
     .btn-contact {
-      position: absolute;
       top: 3px;
       right: 0;
       background-color: $primary;
@@ -69,54 +76,9 @@ header {
       border: none;
       border-radius: 3px;
 
-      @include for-phone-only{
-        display: none;
-      }
-
-
       &:hover {
         background-color: darkblue;
       }
     }
   }
-}
-@media screen and (min-width: 190px) and (max-width: 768px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    position: absolute;
-    margin-right: 0px;
-    display: block;
-  }
-
-}
-
-@media screen and (min-width: 190px) and (max-width: 768px)  {
-  .topnav.responsive a:not(:first-child) {position: relative;
-    top: 50px;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0 0 5px black;
-    margin-bottom: 3px;
-    right: -150px;
-    width: 180px;
-    transition: ease .5s;
-  }
-  
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-  }
-  
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-    right: 0;
-    
-    
-    
-  }
- 
 }

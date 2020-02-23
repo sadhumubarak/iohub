@@ -30,22 +30,23 @@ class Header extends Component {
                 <header>
                     <div className="header">
                         <div className="logo">
+                            <a href="#home">
                             <img src="io-logo.png" alt="io-logo" />
+                            </a>
                         </div>
 
                         <div className="topnav" id="myTopnav">
-                            <a href="#" class="icon" onClick={ () => {this.handleOption();}}>
-                            <i class="material-icons">&#xe5d2;</i></a>
-                            <a href="#work" >Work</a>
+                                    <a href="#work" >Work</a>
                             <a href="#about" >About</a>
                             <a href="#products" >Products</a>
                             <a href="#blog" >Blog</a>
-                            <a href="" >Contact</a>
-                        </div>
-
-                        <div className="button-contact">
                             <button className="btn-contact">Contact</button>
                         </div>
+
+                        <div className="menu">
+                            <i class="material-icons" onClick={() => {this.handleOption();}}>&#xe5d2;</i>
+                        </div> 
+                         
                     </div>    
                 </header>
             </Fragment>

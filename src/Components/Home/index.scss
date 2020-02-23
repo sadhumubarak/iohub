@@ -3,10 +3,14 @@
   padding: 0 ;
 }
 
+.container-home{
+  border-bottom: 0.5px solid rgb(209, 209, 209);
+}
+
 .showcase {
   width: 80%;
   height: 90vh;
-  margin: 10px auto;
+  margin: 90px auto;
   display: flex;
 
   @include for-phone-only{
@@ -67,15 +71,15 @@
   .showcase-box-2 {
     width: 50%;
 
-
     @include for-phone-only {
       width: 100%;
     }
     img {
-      height: 630px;
+      height: 500px;
+      overflow: hidden;
 
       @include for-phone-only {
-        height: 350px;
+        height: 300px;
       }
     }
   }

@@ -23,8 +23,8 @@ class Home extends Component {
         return (
             <Fragment>
                 <Header />
-                
-                <div className="showcase">
+                <div className="container-home">
+                <div className="showcase" id="home" data-aos="fade-up">
                     <div className="showcase-box-1">
                         <h1 className="showcase-title">Product Designer</h1>
                         <p className="showcase-paragraph">
@@ -37,6 +37,7 @@ class Home extends Component {
                     <div className="showcase-box-2">
                         <img src="./img-1.jpg" alt="illustrator-file" />
                     </div>
+                </div>
                 </div>
 
                 <Work/>

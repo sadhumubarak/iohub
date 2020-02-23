@@ -15,9 +15,9 @@ class Gallery extends Component {
             <Fragment>
                 <div className="container-article">
                     <div className="article">
-                        <div className="container">
+                        <div className="container" data-aos="fade-right">
                             <div className="content-box1">
-                                <img src="" alt="sample" />
+                                <img src="img-1.png" alt="sample" />
                             </div>
                             <div className="content-box2">
                                 <p>CASE STUDY</p>
@@ -33,7 +33,7 @@ class Gallery extends Component {
 
                         <div className="samples">
                             <div className="sample-img-row">
-                                <img src="" alt="sample-img" />
+                                <img src="img-1.png" alt="sample-img" />
 
                                 <p>CASE STUDY</p>
                                 <h3>Reading Ecperience Filters Concept</h3>
@@ -43,7 +43,7 @@ class Gallery extends Component {
                             </div>
 
                             <div className="sample-img-row">
-                                <img src="" alt="sample-img" />
+                                <img src="img-2.png" alt="sample-img" />
 
                                 <p>CASE STUDY</p>
                                 <h3>Reading Ecperience Filters Concept</h3>
@@ -53,7 +53,7 @@ class Gallery extends Component {
                             </div>
 
                             <div className="sample-img-row">
-                                <img src="" alt="sample-img" />
+                                <img src="img-3.png" alt="sample-img" />
 
                                 <p>CASE STUDY</p>
                                 <h3>Reading Ecperience Filters Concept</h3>
