@@ -14,9 +14,8 @@ class Home extends Component {
 
         return (
             <Fragment>
-                <Header />
                 <div className="container-home">
-                akjsdflk
+                <button>test</button>
                 </div>
 
                 
